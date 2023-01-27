@@ -1,0 +1,101 @@
+
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #fff;
+}
+
+/* GROUP CSS SELECTOR */
+h1, h2, h3, h4, p{
+    text-shadow: 0 0 1px black;
+}
+
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-img{
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid 5px #EFB0C9;
+}
+
+#bday-age{
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bday-date{
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#gift-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    #gift-section h2{
+        margin-bottom: 10px;
+    }
+
+    #gift-section h3{
+        margin-top: 0;
+    }
+
+.gift-section-img {
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-image: url("./images/gift-cover.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    #gif-1:hover{
+        background-image: url("./images/birthday-celebration.gif");
+    }
+
+    #gif-2:hover{
+        background-image: url("./images/rem-blushing.gif");
+    }
+
+    #gif-3:hover{
+        background-image: url("./images/genius.gif");
+    }
+
+    #gif-4:hover{
+        background-image: url("./images/40k-badass.gif");
+    }
+
+
+#footer{
+    width: 450px;
+    margin: 50px auto;
+}
+
+    #footer h3 a{
+        text-decoration: underline;
+        color: white;
+    }
+    
+    #footer h3 a:hover{
+        text-decoration: underline;
+        color: blue;
+        
+    }
